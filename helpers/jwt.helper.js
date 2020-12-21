@@ -1,6 +1,5 @@
 // dau tien
 const jwt = require("jsonwebtoken");
-
 //generateToken- tao token
 let generateToken = (user, secretSignature, tokenLife) => {
   // Định nghĩa những thông tin của user mà bạn muốn lưu vào token ở đây
@@ -11,7 +10,6 @@ let generateToken = (user, secretSignature, tokenLife) => {
       email: user.email,
     };
     // Thực hiện ký và tạo token
-
     jwt.sign(
       { data: userData },
       secretSignature,

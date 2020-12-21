@@ -1,7 +1,4 @@
-/**
- * Created by trungquandev.com's author on 16/10/2019.
- * src/server.js
- */
+
 const express = require("express");
 const app = express();
 const initAPIs = require("./routes/api");

@@ -1,7 +1,4 @@
-/**
- * Created by trungquandev.com's author on 16/10/2019.
- * src/routes/api.js
- */
+
 const express = require("express");
 const router = express.Router();
 const AuthMiddleWare = require("../middleware/AuthMiddleware");
